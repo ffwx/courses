@@ -12,6 +12,9 @@ nav:
     - 操作系统:
         - 课程: operating_system_courses.md
 
+    - Linux 内核:
+        - 资料: linux_kernel_materials.md
+
     - 数字电路设计:
         - 课程: digital_design_courses.md
 theme:
@@ -56,4 +59,4 @@ extra_javascript:
     - https://polyfill.io/v3/polyfill.min.js?features=es6
     - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
-copyright: Copyright &copy; 2023 - 2023 w512
+copyright: Copyright &copy; 2024 - 2024 Second
