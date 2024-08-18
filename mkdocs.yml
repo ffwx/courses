@@ -1,0 +1,59 @@
+site_name: 计算机&电子&通信课程资料汇总
+
+nav:
+    - 总目录: index.md
+    - 无线通信:
+        - 课程: wireless_communication_courses.md
+        - 资料: wireless_communication_materials.md
+    - 嵌入式:
+        - 课程: embedded_dev_courses.md
+        - 资料: embedded_dev_materials.md
+
+    - 操作系统:
+        - 课程: operating_system_courses.md
+
+    - 数字电路设计:
+        - 课程: digital_design_courses.md
+theme:
+    name: material
+    palette:
+        # Palette toggle for light mode
+        - scheme: default
+          toggle:
+            icon: material/brightness-7
+            name: Switch to dark mode
+
+        # Palette toggle for dark mode
+        - scheme: slate
+          toggle:
+            icon: material/brightness-4
+            name: Switch to light mode
+    palette:
+        primary: green
+        accent: deep orange
+markdown_extensions:
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.arithmatex:
+        generic: true
+    # images
+    - attr_list
+    - md_in_html
+
+extra:
+    social:
+        - icon: fontawesome/solid/paper-plane
+          link: mailto:448778313@qq.com
+    generator: false
+
+
+extra_css:
+    - stylesheets/extra.css
+
+extra_javascript:
+    - javascripts/mathjax.js
+    - https://polyfill.io/v3/polyfill.min.js?features=es6
+    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+copyright: Copyright &copy; 2023 - 2023 w512
